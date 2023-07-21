@@ -1,0 +1,56 @@
+body {
+    font-family: 'Rock Salt', cursive;
+    margin:0;
+    padding: 0;
+    width:100%;
+}
+
+#jumboid {
+    width:100%;
+}
+
+header {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+header h2 {
+    color: black;
+}
+
+footer {
+    background-image: linear-gradient(#0ca4f6, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+
+    background-size: cover;
+    margin: 0;
+    padding: 0;;
+}
+
+.row-content {
+
+    margin-bottom: 20px;
+}
+
+.navbar {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.site-footer{
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+position:relative;
+
+}

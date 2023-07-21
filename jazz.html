@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!--Additional CSS must be placed after Bootstrap CSS-->
+
+     <!-- Additional CSS must be placed after Bootstrap CSS -->
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rock+Salt&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Expressenz Costume Resale Site</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light sticky-top bg-white">
+            <a class="navbar-brand" href="index.html"><img src="images/NZLogo.png" height="75" width="150" alt="Expressenz Logo"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NZNavbar" aria-controls="NZNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="NZNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown mr-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Shop
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Jazz</a>
+                            <a class="dropdown-item" href="lyrical.html">Lyrical & Contemporary</a>
+                            <a class="dropdown-item" href="tap.html">Tap</a>
+                            <a class="dropdown-item" href="hiphop.html">Hip Hop</a>
+                            <a class="dropdown-item" href="ballet.html">Ballet</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Shop All</a>
+                            </div>
+                    </li>
+                    <li class="nav-item mr-4"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item mr-4"><a class="nav-link" href="#">Size Guide</a></li>
+                    <li class="nav-item mr-4"><a class="nav-link" href="#">FAQ</a></li>
+                </ul>
+            </div>
+    </nav>
+
+<!--breadcrumb-->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Shop</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Jazz</li>
+        </ol>
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid bg-white">
+        <div class="row row-content justify-content-center">
+            <h3>Expressenz Booster Club Costume Resale > Jazz </h3>
+        </div>
+    </header>
+
+    <!-- Modal for Time for Tea -->
+    <div class="modal fade" id="timeForTeaInfo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Time For Tea</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>10 Available</p>
+                    <p>email: nzcostumeresale@gmail.com for sizes</p>
+
+                    <!------carousel-->
+                    <div id="timeForTeaCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#timeForTeaCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#timeForTeaCarousel" data-slide-to="1"></li>
+                            <li data-target="#timeForTeaCarousel" data-slide-to="2"></li>
+                            <li data-target="#timeForTeaCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/timeForTea/timeForTea.JPG" alt="Time for Tea Costume 1" />
+                                <div class="carousel-caption">
+                                    <h3>Time for Tea</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/timeForTea/timeForTea2.jpg" alt="Time for Tea Costume 2" />
+                                <div class="carousel-caption">
+                                    <h3>Time for Tea</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/timeForTea/timeForTea3.jpg" alt="Time for Tea Costume 3" />
+                                <div class="carousel-caption">
+                                    <h3>Time for Tea</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/timeForTea/timeForTea4.jpg" alt="Time for Tea Costume 4" />
+                                <div class="carousel-caption">
+                                    <h3>Time for Tea</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#timeForTeaCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#timeForTeaCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>  <!------end carousel-->
+
+                </div><!------end modal body-->
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div> <!------end modal content-->
+        </div> <!------end modal dialog-->
+    </div> <!------end modal-->
+
+    <!-- Modal for Holding Out for a Hero -->
+    <div class="modal fade" id="holdingOutForAHeroInfo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Holding Out for a Hero</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>10 Available</p>
+                    <p>email: nzcostumeresale@gmail.com for sizes</p>
+                    <div id="holdingOutForAHeroCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#holdingOutForAHeroCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#holdingOutForAHeroCarousel" data-slide-to="1"></li>
+                            <li data-target="#holdingOutForAHeroCarousel" data-slide-to="2"></li>
+                            <li data-target="#holdingOutForAHeroCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/holdingOutForAHero/holdingOutForAHero.JPG" alt="Holding Out For A Hero Costume 1" />
+                                <div class="carousel-caption">
+                                    <h3>Holding Out For a Hero</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/holdingOutForAHero/holdingOutForAHero2.JPG" alt="Holding Out For A Hero Costume 2" />
+                                <div class="carousel-caption">
+                                    <h3>Holding Out For a Hero</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/holdingOutForAHero/holdingOutForAHero3.JPG" alt="Holding Out For A Hero Costume 3" />
+                                <div class="carousel-caption">
+                                    <h3>Holding Out For a Hero</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/holdingOutForAHero/holdingOutForAHero4.JPG" alt="Holding Out For A Hero Costume 4" />
+                                <div class="carousel-caption">
+                                    <h3>Holding Out For a Hero</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#holdingOutForAHeroCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#holdingOutForAHeroCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for California Girls -->
+    <div class="modal fade" id="californiaGirlsInfo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">California Girls</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>10 Available</p>
+                    <p>email: nzcostumeresale@gmail.com for sizes</p>
+                    <div id="californiaGirlsCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#californiaGirlsCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#californiaGirlsCarousel" data-slide-to="1"></li>
+                            <li data-target="#californiaGirlsCarousel" data-slide-to="2"></li>
+                            <li data-target="#californiaGirlsCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/californiaGirls/californiaGirls1.jpg" alt="California Girls Costume 1" />
+                                <div class="carousel-caption">
+                                    <h3>California Girls</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/californiaGirls/californiaGirls2.jpg" alt="California Girls Costume 2" />
+                                <div class="carousel-caption">
+                                    <h3>California Girls</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/californiaGirls/californiaGirls3.jpg" alt="California Girls Costume 3" />
+                                <div class="carousel-caption">
+                                    <h3>California Girls</h3>
+                                </div>
+                            </div>
+        <!--update with different photo below-->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/californiaGirls/californiaGirls3.jpg" alt="California Girls Costume 4" />
+                                <div class="carousel-caption">
+                                    <h3>California Girls</h3>
+                                </div>
+                            </div>
+        <!--update with different photo above-->
+                        </div>
+                        <a class="carousel-control-prev" href="#californiaGirlsCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#californiaGirlsCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Jailhouse Rock -->
+    <div class="modal fade" id="JailhouseInfo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Jailhouse Rock</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>10 Available</p>
+                    <p>email: nzcostumeresale@gmail.com for sizes</p>
+                    <div id="jailHouseCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#jailHouseCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#jailHouseCarousel" data-slide-to="1"></li>
+                            <li data-target="#jailHouseCarousel" data-slide-to="2"></li>
+                            <li data-target="#jailHouseCarousel" data-slide-to="3"></li>
+                            <li data-target="#jailHouseCarousel" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/jailHouseRock/jailhouse7.jpg" alt="Jailhouse Rock Costume 1" />
+                                <div class="carousel-caption">
+                                    <h3>Jailhouse Rock</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/jailHouseRock/jailhouse2.JPG" alt="Jailhouse Rock Costume 2" />
+                                <div class="carousel-caption">
+                                    <h3>Jailhouse Rock</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/jailHouseRock/jailhouse3.JPG" alt="Jailhouse Rock Costume 3" />
+                                <div class="carousel-caption">
+                                    <h3>Jailhouse Rock</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/jailHouseRock/jailhouse4.jpg" alt="Jailhouse Rock Costume 4" />
+                                <div class="carousel-caption">
+                                    <h3>Jailhouse Rock</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/jailHouseRock/jailhouse5.jpg" alt="Jailhouse Rock Costume 5" />
+                                <div class="carousel-caption">
+                                    <h3>Jailhouse Rock</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#jailHouseCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#jailHouseCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Can't Turn You Loose -->
+    <div class="modal fade" id="looseInfo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Can't Turn You Loose</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>10 Available</p>
+                    <p>email: nzcostumeresale@gmail.com for sizes</p>
+
+                    <!------carousel-->
+                    <div id="looseCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#looseCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#looseCarousel" data-slide-to="1"></li>
+                            <li data-target="#looseCarousel" data-slide-to="2"></li>
+                            <li data-target="#looseCarousel" data-slide-to="3"></li>
+                            <li data-target="#looseCarousel" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/cantTurnYouLoose/loose6.JPG" alt="Can't Turn You Loose Costume 1" />
+                                <div class="carousel-caption">
+                                    <h3>Can't Turn You Loose</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/cantTurnYouLoose/loose7.jpg" alt="Can't Turn You Loose Costume 5" />
+                                <div class="carousel-caption">
+                                    <h3>Can't Turn You Loose</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/cantTurnYouLoose/loose3.JPG" alt="Can't Turn You Loose Costume 2" />
+                                <div class="carousel-caption">
+                                    <h3>Can't Turn You Loose</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/cantTurnYouLoose/loose4.JPG" alt="Can't Turn You Loose Costume 3" />
+                                <div class="carousel-caption">
+                                    <h3>Can't Turn You Loose</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/cantTurnYouLoose/loose2.JPG" alt="Can't Turn You Loose Costume 4" />
+                                <div class="carousel-caption">
+                                    <h3>Can't Turn You Loose</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#looseCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#looseCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>  <!------end carousel-->
+
+                </div><!------end modal body-->
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div> <!------end modal content-->
+        </div> <!------end modal dialog-->
+    </div> <!------end modal-->
+
+    <!-- Modal for  -->
+    <div class="modal fade" id="looseInfo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Can't Turn You Loose</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>10 Available</p>
+                    <p>email: nzcostumeresale@gmail.com for sizes</p>
+
+                    <!------carousel-->
+                    <div id="looseCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#looseCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#looseCarousel" data-slide-to="1"></li>
+                            <li data-target="#looseCarousel" data-slide-to="2"></li>
+                            <li data-target="#looseCarousel" data-slide-to="3"></li>
+                            <li data-target="#looseCarousel" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/cantTurnYouLoose/loose6.JPG" alt="Can't Turn You Loose Costume 1" />
+                                <div class="carousel-caption">
+                                    <h3>Can't Turn You Loose</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/cantTurnYouLoose/loose7.jpg" alt="Can't Turn You Loose Costume 5" />
+                                <div class="carousel-caption">
+                                    <h3>Can't Turn You Loose</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/cantTurnYouLoose/loose3.JPG" alt="Can't Turn You Loose Costume 2" />
+                                <div class="carousel-caption">
+                                    <h3>Can't Turn You Loose</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/cantTurnYouLoose/loose4.JPG" alt="Can't Turn You Loose Costume 3" />
+                                <div class="carousel-caption">
+                                    <h3>Can't Turn You Loose</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/cantTurnYouLoose/loose2.JPG" alt="Can't Turn You Loose Costume 4" />
+                                <div class="carousel-caption">
+                                    <h3>Can't Turn You Loose</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#looseCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#looseCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>  <!------end carousel-->
+
+                </div><!------end modal body-->
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div> <!------end modal content-->
+        </div> <!------end modal dialog-->
+    </div> <!------end modal-->
+
+    <div class="container container-fluid">
+        <div class="row row-content">
+            <div class="col-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Time for Tea</h5>
+                        <img src="images/timeForTea/timeForTea.JPG" class="card-img-top" alt="Time for Tea Costume">
+                        <p class="card-text">Custom, bright pink, green and orange, includes tophat hairpiece</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#timeForTeaInfo">Check Availability</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title mx-auto">Holding Out for a Hero</h5>
+                        <img src="images/holdingOutForAHero/holdingOutForAHero.JPG" class="card-img-top img-responsive" alt="Holding Our fo a Hero Costume">
+                        <p class="card-text">Custom, superhero costumes, includes arm bands and hairpiece</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#holdingOutForAHeroInfo">
+                           Check Availability
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row row-content">
+            <div class="col-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">California Girls</h5>
+                        <img src="images/californiaGirls/californiaGirls1.jpg" class="card-img-top" alt="California Girls Costume">
+                        <p class="card-text">Custom, pink and purple gingham leotard, includes headband</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#californiaGirlsInfo">Check Availability</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title mx-auto">Jailhouse Rock</h5>
+                        <img src="images/jailHouseRock/jailhouse6.JPG" class="card-img-top img-responsive" alt="Jailhouse Rock Costume">
+                        <p class="card-text">Custom, superhero costumes, includes arm bands and hairpiece</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#JailhouseInfo">
+                            Check Availability
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title mx-auto">Can't Turn You Loose</h5>
+                        <img src="images/cantTurnYouLoose/loose.JPG" class="card-img-top img-responsive" alt="Can't Turn You Loose Costume">
+                        <p class="card-text">Custom, neon on green dress</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#looseInfo">
+                            Check Availability
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+<script>
+ $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+
+</script>
+<script>
+    $(document).ready(function() {
+
+        // Gets the video src from the data-src on each button
+
+        var $videoSrc;
+        $('.video-btn').click(function() {
+            $videoSrc = $(this).data( "src" );
+        });
+        console.log($videoSrc);
+</script>
+</body>
+</html>
