@@ -5,13 +5,14 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin tap.html -d dist --htmlmin -o dist/tap.htmlusemin jazz.html -d dist --htmlmin -o dist/jazz.html && usemin lyrical.html -d dist --htmlmin -o dist/lyrical.html && usemin ballet.html -d dist --htmlmin -o dist/ballet.html && usemin hiphop.html -d dist --htmlmin -o dist/hiphop.html",
+    "usemin": "usemin jazz.html -d dist --htmlmin -o dist/jazz.html && usemin lyrical.html -d dist --htmlmin -o dist/lyrical.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin tap.html -d dist --htmlmin -o dist/tap.html && usemin ballet.html -d dist --htmlmin -o dist/ballet.html && usemin hiphop.html -d dist --htmlmin -o dist/hiphop.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
@@ -21,6 +22,7 @@
   "devDependencies": {
     "copyfiles": "^2.2.0",
     "lite-server": "^2.6.1",
+    "node-sass": "^6.0.1",
     "onchange": "^7.0.0",
     "parallelshell": "3.0.1",
     "rimraf": "^3.0.2",
@@ -29,7 +31,6 @@
   "dependencies": {
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
-    "firebase": "^10.1.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
