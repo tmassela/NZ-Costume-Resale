@@ -31,7 +31,8 @@ footer {
 }
 
 .row-content {
-
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 20px;
 }
 

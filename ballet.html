@@ -1,33 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags always come first -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
-    <!--Additional CSS must be placed after Bootstrap CSS-->
-
-     <!-- Additional CSS must be placed after Bootstrap CSS -->
-     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+     <!-- build:css css/main.css -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" >
+     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" >
+     <link rel="stylesheet" href="css/styles.css" >
+     <!-- endbuild -->
      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rock+Salt&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="css/styles.css" />
-
     <title>Expressenz Costume Resale Site</title>
-
 </head>
-
 <body>
-
     <nav class="navbar navbar-expand-md navbar-light sticky-top bg-white">
-            <a class="navbar-brand" href="index.html"><img src="images/NZLogo.png" height="75" width="150" /></a>
+            <a class="navbar-brand" href="index.html"><img src="images/NZLogo.png" height="75" width="150" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NZNavbar" aria-controls="NZNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,7 +41,6 @@
                 </ul>
             </div>
     </nav>
-
     <!--breadcrumb-->
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -62,16 +49,11 @@
         <li class="breadcrumb-item active" aria-current="page">Ballet</li>
         </ol>
     </nav>
-
     <header class="jumbotron jumbotron-fluid bg-white">
         <div class="row row-content justify-content-center">
             <h3>Expressenz Booster Club Costume Resale > Ballet </h3>
-
         </div>
     </header>
-
-
-
    <!-- Modal for Aurora's Friends -->
    <div class="modal fade" id="auroraInfo" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -83,12 +65,10 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-
             <div class="modal-body">
                 <p>10 Available</p>
                 <p>email: nzcostumeresale@gmail.com for sizes</p>
-
-                <!------carousel-->
+                <!--carousel-->
                 <div id="auroraCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#auroraCarousel" data-slide-to="0" class="active"></li>
@@ -98,31 +78,31 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="images/aurora/aurora1.JPG" alt="Aurora Costume 1" />
+                            <img class="d-block w-100" src="images/aurora/aurora1.JPG" alt="Aurora Costume 1" >
                             <div class="carousel-caption">
                                 <h3>Aurora's Friends</h3>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/aurora/aurora.JPG" alt="Aurora Costume 2" />
+                            <img class="d-block w-100" src="images/aurora/aurora.JPG" alt="Aurora Costume 2" >
                             <div class="carousel-caption">
                                 <h3>Aurora's Friends</h3>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/aurora/aurora4.JPG" alt="Aurora Costume 3" />
+                            <img class="d-block w-100" src="images/aurora/aurora4.JPG" alt="Aurora Costume 3" >
                             <div class="carousel-caption">
                                 <h3>Aurora's Friends</h3>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/aurora/aurora5.JPG" alt="Aurora Costume 4" />
+                            <img class="d-block w-100" src="images/aurora/aurora5.JPG" alt="Aurora Costume 4" >
                             <div class="carousel-caption">
                                 <h3>Aurora's Friends</h3>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/aurora/aurora7.jpg" alt="Aurora Costume 5" />
+                            <img class="d-block w-100" src="images/aurora/aurora7.jpg" alt="Aurora Costume 5" >
                             <div class="carousel-caption">
                                 <h3>Aurora's Friends</h3>
                             </div>
@@ -136,154 +116,14 @@
                         <span class="carousel-control-next-icon"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>  <!------end carousel-->
-            </div><!------end modal body-->
-
+                </div>  <!--end carousel-->
+            </div><!--end modal body-->
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
-        </div> <!------end modal content-->
-    </div> <!------end modal dialog-->
-</div> <!------end modal-->
-
-    <!-- Modal for Jump In The Line -->
-    <div class="modal fade" id="jumpTheLineInfo" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <h5 class="modal-title">Jump In The Line</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <p>10 Available</p>
-                    <p>email: nzcostumeresale@gmail.com for sizes</p>
-                    <div id="jumpTheLineCarousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#jumpTheLineCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#jumpTheLineCarousel" data-slide-to="1"></li>
-                            <li data-target="#jumpTheLineCarousel" data-slide-to="2"></li>
-                            <li data-target="#jumpTheLineCarousel" data-slide-to="3"></li>
-                            <li data-target="#jumpTheLineCarousel" data-slide-to="4"></li>
-                            <li data-target="#jumpTheLineCarousel" data-slide-to="5"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="images/jumpTheLine/jumpTheLine1.JPG" alt="Jump The Line Costume 1" />
-                                <div class="carousel-caption">
-                                    <h3>Jump In the Line</h3>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/jumpTheLine/jumpTheLIne2.JPG" alt="Jump The Line Costume 2" />
-                                <div class="carousel-caption">
-                                    <h3>Jump In the Line</h3>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/jumpTheLine/jumpTheLine3.jpg" alt="Jump The Line Costume 3" />
-                                <div class="carousel-caption">
-                                    <<h3>Jump In the Line</h3>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/jumpTheLine/jumpTheLine4.jpg" alt="Jump The Line Costume 4" />
-                                <div class="carousel-caption">
-                                    <h3>Jump In the Line</h3>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/jumpTheLine/jumpTheLine5.jpg" alt="Jump The Line Costume 5" />
-                                <div class="carousel-caption">
-                                    <h3>Jump In the Line</h3>
-                                </div>
-                            </div>
-
-                        </div>
-                        <a class="carousel-control-prev" href="#jumpTheLineCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#jumpTheLineCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal for Material Girls -->
-    <div class="modal fade" id="materialGirlnfo" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <h5 class="modal-title">Material Girl</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <p>10 Available</p>
-                    <p>email: nzcostumeresale@gmail.com for sizes</p>
-                    <div id="materialGirlCarousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#materialGirlCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#materialGirlCarousel" data-slide-to="1"></li>
-                            <li data-target="#materialGirlCarousel" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="images/materialGirl/materialGirl2.JPG" alt="Material Girl Costume 1" />
-                                <div class="carousel-caption">
-                                    <h3>Material Girlk</h3>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/materialGirl/materialGirl3.JPG" alt="Material Girl Costume 2" />
-                                <div class="carousel-caption">
-                                    <h3>Material Girlk</h3>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/materialGirl/materialGirl4.jpg" alt="Material Girl Costume 3" />
-                                <div class="carousel-caption">
-                                    <h3>Material Girlk</h3>
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <a class="carousel-control-prev" href="#materialGirlCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#materialGirlCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
+        </div> <!--end modal content-->
+    </div> <!--end modal dialog-->
+</div> <!--end modal-->
 
     <div class="container container-fluid">
         <div class="row row-content">
@@ -297,74 +137,13 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-6">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title mx-auto">See You Later Alligator</h5>
-                        <img src="images/seeYaLater/seeYaLater.JPG" class="card-img-top img-responsive" alt="See Ya Later Alligator Costume">
-                        <p class="card-text">Brown dress with alligator patch, includes scarf and matching alligator hairpiece</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#seeYaLaterInfo">
-                           Check Availability
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row row-content">
-            <div class="col-6">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title">Bippity Boppity Boo</h5>
-                        <img src="images/boppityBoo/boppityBoo2.JPG" class="card-img-top" alt="Bippity Boppity Boo Costume">
-                        <p class="card-text">Custom top and skirt, includes crown</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boppityBooInfo">Check Availability</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title mx-auto">Material Girl</h5>
-                        <img src="images/materialGirl/materialGirl.JPG" class="card-img-top img-responsive" alt="Material Girl Costume">
-                        <p class="card-text">Custom, matching hot pink tank top and pants, includes rhinestone belt</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#materialGirlnfo">
-                            Check Availability
-                        </button>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!--build.js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <script>
-    // When the user scrolls the page, execute myFunction
-    window.onscroll = function() {myFunction()};
-
-    // Get the navbar
-    var navbar = document.getElementById("navbar");
-
-    // Get the offset position of the navbar
-    var sticky = navbar.offsetTop;
-
-    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-    function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-    } else {
-        navbar.classList.remove("sticky");
-    }
-}
-    </script>
-
-
+    <script src="js/script.js"></script>
+    <!--endbuild -->
 </body>
-
 </html>
